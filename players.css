@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.mainSection{
+    background-image: url('stadium-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.head{
+   color: white;
+   text-align: center;
+   padding-top: 10px;
+}
+table{
+    width: 90%;
+    color: white;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    line-height: 2rem;
+
+}
+th{
+    width: 5%;
+}
+tbody tr td img{
+    width: 2rem;
+    height: 1.5rem;
+}
+thead{
+    background-color: aquamarine;
+}
+tr:hover{
+background-color: gray;
+cursor: pointer;
+}
